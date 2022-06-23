@@ -4,8 +4,6 @@ from io import BytesIO
 
 from bs4 import BeautifulSoup
 
-import xml.etree.ElementTree as ET
-
 
 def get_new_fid():
     # скачиваем файл поставщика и созраняем его в переменную
